@@ -8,6 +8,7 @@ from sklearn.metrics import (
     classification_report
 )
 import matplotlib.pyplot as plt
+import warnings
 warnings.filterwarnings('ignore')
 
 # 1. 页面配置（适配葡萄酒主题）
