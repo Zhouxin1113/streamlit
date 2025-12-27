@@ -34,7 +34,7 @@ if uploaded_file is not None:
 else:
     # 若用户未上传，尝试加载默认路径的wine.csv（Streamlit部署时需调整路径）
     try:
-        df = pd.read_csv('/mnt/wine.csv')
+        df = pd.read_csv('wine.csv')
         st.sidebar.success("已加载默认 wine.csv 数据")
     except:
         st.sidebar.error("请上传 wine.csv 文件或检查路径")
